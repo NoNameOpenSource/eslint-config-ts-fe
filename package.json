@@ -1,0 +1,42 @@
+{
+    "name": "@nonameopensource/eslint-config-typescript",
+    "version": "0.0.0",
+    "description": "NoNameOpenSource's eslint plugin for TypeScript projects",
+    "main": "dist/index.js",
+    "scripts": {
+        "compile": "rm -rf dist && tsc",
+        "watch": "tsc -w true",
+        "lint": "eslint --ext ts src/*",
+        "fix": "prettier --config .prettierrc.yml 'src/**/*.ts' --write"
+    },
+    "config": {
+        "fund": false
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NoNameOpenSource/eslint-config-typescript.git"
+    },
+    "author": "NoNameOpenSource Team",
+    "bugs": {
+        "url": "https://github.com/NoNameOpenSource/eslint-config-typescript/issues"
+    },
+    "homepage": "https://github.com/NoNameOpenSource/eslint-config-typescript#readme",
+    "devDependencies": {
+        "@tsconfig/node16": "^1.0.3",
+        "@types/eslint": "^8.4.6",
+        "@types/node": "^18.7.16",
+        "@typescript-eslint/eslint-plugin": "^5.36.2",
+        "@typescript-eslint/parser": "^5.36.2",
+        "eslint": "^8.23.0",
+        "eslint-import-resolver-node": "^0.3.6",
+        "eslint-import-resolver-typescript": "^3.4.2",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-only-warn": "^1.0.3",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "prettier": "^2.7.1",
+        "react": "^18.2.0",
+        "typescript": "^4.8.2"
+    }
+}

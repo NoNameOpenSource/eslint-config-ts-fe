@@ -1,0 +1,2 @@
+root: true
+extends: ./dist/index.js
