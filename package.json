@@ -1,5 +1,5 @@
 {
-    "name": "@nonameopensource/eslint-config-typescript",
+    "name": "@nonameopensource/eslint-config-typescript-frontend",
     "version": "0.0.0",
     "description": "NoNameOpenSource's eslint plugin for frontend TypeScript projects",
     "main": "dist/index.js",
@@ -14,13 +14,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/NoNameOpenSource/eslint-config-typescript.git"
+        "url": "git+https://github.com/NoNameOpenSource/eslint-config-typescript-frontend.git"
     },
     "author": "NoNameOpenSource Team",
     "bugs": {
-        "url": "https://github.com/NoNameOpenSource/eslint-config-typescript/issues"
+        "url": "https://github.com/NoNameOpenSource/eslint-config-typescript-frontend/issues"
     },
-    "homepage": "https://github.com/NoNameOpenSource/eslint-config-typescript#readme",
+    "homepage": "https://github.com/NoNameOpenSource/eslint-config-typescript-frontend#readme",
     "devDependencies": {
         "@tsconfig/node16": "^1.0.3",
         "@types/eslint": "^8.4.6",
