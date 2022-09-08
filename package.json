@@ -13,10 +13,7 @@
     "config": {
         "fund": false
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/NoNameOpenSource/eslint-config-ts-fe.git"
-    },
+    "repository": "https://github.com/NoNameOpenSource/eslint-config-ts-fe",
     "author": "NoNameOpenSource Team",
     "bugs": {
         "url": "https://github.com/NoNameOpenSource/eslint-config-ts-fe/issues"
