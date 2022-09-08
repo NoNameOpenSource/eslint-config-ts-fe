@@ -7,3 +7,4 @@ dist/demo.js
 .eslintrc.yml
 .eslintignore
 types
+.prettierrc.yml
